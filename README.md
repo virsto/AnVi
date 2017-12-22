@@ -1,4 +1,4 @@
-# EvaS
+# AnVi
 Colony lot website. Goal of project is to have a website
 that shows images and text for a colonist (https://en.wikipedia.org/wiki/Allotment_(gardening)#Sweden).
 Some current features:
@@ -7,4 +7,4 @@ Some current features:
  * gallery of images<br>
  
 
- Website: https://virsto.github.io/EvaS                   
+ Website: https://virsto.github.io/AnVi                   
