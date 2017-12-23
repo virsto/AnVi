@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- This is a modified version of the html at https://www.w3schools.com/w3css/w3css_templates.asp  
+
+ * Local external files (in C:/MyWebSites):
+   - MyStyles_01.css
+   - MyScripts_01.js
+   - GoogleMap.js
+   - index_11.html ----------------------------------------  -> index.html
+   - eng_11.html   ----------------------------------------  -> eng.html
+   - images/VPS/Scaled/*.jpg (all image files in this folder) -> images/*.jpg
+   
+     parallax1.jpg
+	 
+     avatar_hat.jpg ---- -> avatar_hat.png
+	 
+	 parallax2.jpg
+	 parallax3.jpg
+	 
+     Birdbath.png
+	 Clematis_Purple.png
+	 Clematis_SummerSnow.png
+	 ES_01.png ---- -> House.jpg
+	 Rose_White.png
+	 Rose_Yellow.png
+	 IMG_0768.jpg
+	 Web_Image_01.png	 
+
+-->
+<!--<html lang="sv"> -->
+<!-- This is the Swedish version of eng.html, where the translation was from English to Swedish and was done in part by the Google translator
+-->  
+<title>A&V Kolonilott</title>
+<meta charset="UTF-8">  <!-- Important!! -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="MyStyles_01.css">
+<style>    
+    /* The following simulates a <pre> */
+   div.poem {
+     /*font-family: 'Sofia';font-size: 18px;*/
+     font-family: 'Kreon';font-size: 18px;
+     unicode-bidi: embed;
+     display: block;
+     white-space: pre; 
+     line-height: 125%;    
+   }
+   .firstcharacter {
+    color: brown;
+    font-size: 150%;
+    }   
+</style>
+
+<body>
+	<!-- Navbar (sits on top) -->
+	<div class="w3-top">
+		<!-- Navbar for big screen -->
+	  <div class="w3-bar" id="myNavbar">
+			<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			  <i class="fa fa-bars"></i>
+			</a>
+			<a href="#home" class="w3-bar-item w3-button">HEM</a>
+			<a href="#message" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-file-o"></i>MEDDELANDEN</a>
+			<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> OM</a>
+			<a href="#pictures" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> BILDER</a>
+			<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKA</a>
+			
+			<a href="eng.html" class="w3-bar-item w3-button  w3-hide-small w3-right w3-hover-red">			  
+			  ENGELSKA
+			</a>			
+    </div> <!-- End of Navbar for big screen -->
+
+	
+	  <!-- Navbar for small screens -->
+	  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+	  	   <a href="#message" class="w3-bar-item w3-button" onclick="toggleFunction()">MEDDELANDEN</a>
+			<a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">OM</a>
+			<a href="#pictures" class="w3-bar-item w3-button" onclick="toggleFunction()">BILDER</a>
+			<a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">KONTAKA</a>				
+			<a href="eng.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ENGELSKA</a>	 
+	  </div>
+	</div> <!-- end of Navbar -->
+
+	<!-- First Parallax Image with Logo Text -->
+	<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+	  <div class="w3-display-middle" style="white-space:nowrap;"> </div>
+	</div>
+
+<!-- Container (Message) section -->
+  <div class="w3-content w3-container w3-padding-64" id="message">
+    <h4 class="w3-center w3-wide">NÅGOT ATT DELA MED</h4><br>
+    <p style="font-size: 110%;"><b>2017-11-01</b>:  Vårt kolonilott blev sova för vintern.
+    </p>
+    <!-- Start of display container for my poem -->
+    <div class="w3-display-container">
+      <div class="poem" > <!-- start of my poem --> 
+ &#9880; <b>EN KOLONIST BÖN</b> &#9880;
+
+ <span class="firstcharacter"><b>O</b></span>h Lord of Springs gone by
+ Spring blooms only memory slots,
+ Summer flowers weeping on lots,
+ Autumn colors soon forgots,
+ Winter creeping into spots.          
+
+ <span class="firstcharacter"><b>O</b></span>h Lord of Springs to be
+ My feet weigh heavily in stride,
+ My back follows with pain denied. 
+ But weary though my body be,
+ Please grant another Spring to me.
+               
+ &#8212; <span style="font-family: Niconne; font-size: 18px;"><b>V. P. Stokes</b></span>  (Vinter 2017)
+      </div> <!-- end of my poem -->
+    </div> <!-- end of container (display) --> 
+  </div> <!-- End of container (Message) section -->
+
+
+	<!-- Start of container (About) section -->
+	<div class="w3-content w3-container " id="about">
+
+	  <h4 class="w3-center w3-wide">VÅRT KOLONILOTT OCH OSS</h4>
+ 	  <div class="w3-panel  w3-sand w3-center w3-serif">
+	    <p style='font-size:19px'><i>""Om du vill vara glad en <b>kort tid</b>, bli full. Om du vill vara lycklig under en <b>lång tid</b>, 
+		  bli kär. Om du vill vara lycklig för<b> alltid</b>, bli kolonist."</i></p>
+	  </div>
+
+	  <p>
+	  	Välkommen till vår hemsida &mdash; en hemsida för en kolonist. En koloni är en tilldelning av ett litet areal, släpper ut till en nominell årlig hyra av kommun eller oberoende tilldelningsföreningar, för att enskilda ska kunna odla sin egen mat, blommor etc. Den första kolonin i Sverige grundades i 1860-talet och nu finns det över 26,000 (<a style="text-decoration-color:blue" href="https://en.wikipedia.org/wiki/Allotment_(gardening)#Sweden"  target="_blank"><font color='blue'>koloni historia</font></a>). Dessa kolonier är uppdelade i mindre lott (kolonilott) där man kan njuta av GIY (<u>G</u>rowing <u>I</u>t <u>Y</u>ourself). <font color = 'red'> Fyll i detta med information om: din koloni som helhet, ditt eget lott, etc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </font>.
+	  </p>  
+
+	  <div class="w3-row">
+			<div class="w3-col m6 w3-center w3-padding-large">
+			  <p><b><i class="fa fa-user w3-margin-right"></i>A.L. + V.S</b></p><br>
+			  <img src="images/avatar_hat.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Bild av oss" width="500" height="333">
+		  </div>
+
+			<!-- Hide this text on small devices -->
+			<div class="w3-col m6 w3-hide-small w3-padding-large">
+			  <p> <font color = 'red'>Här kan du inkludera lite information om er själva som är lite mer personlig (till exempel andra intressen, din bild eller personliga avatar). Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font></p>
+			</div>
+	  </div>
+
+	  <p class="w3-large"><b>Var går tiden när vi är i vårt kolonilott?</b></p>
+	  <span class="w3-wide"><!--<i class="fa fa-camera">-->Avkoppling</span>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:65%">65%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-camera">-->Städning</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:10%">10%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-camera">-->Vattning</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:8%">8%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-laptop">-->Trimning</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:6%">6%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-photo">-->Ogräsrensning</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:4%">4%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-photo">-->Grävning</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:4%">4%</div>
+	  </div>
+	  <p class="w3-wide"><!--<i class="fa fa-photo">-->Plantering</p>
+	  <div class="w3-light-grey">
+		  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:3%">3%</div>
+	  </div>
+	  <span class="w3-large "><b>Och detta ger upp till 100% nöje!</b></span> 	
+      <p><span class="w3-large"><b>Typer av växter som vi odlar:</b></span></p>
+	  
+	  <div class="w3-row w3-center w3-dark-grey">
+		  <div class="w3-col m2 w3-red"><p><span class="w3-xlarge">Blommor</span></p><span class="w3-xlarge">10+</span></div>
+		  <div class="w3-col m2 w3-orange"><p><span class="w3-xlarge">Grönsaker</span></p><span class="w3-xlarge">7+</span></div>
+			<div class="w3-col m2 w3-yellow"><p><span class="w3-xlarge">Suckulenter</span></p><span class="w3-xlarge">5+</span></div>
+			<div class="w3-col m2 w3-green"><p><span class="w3-xlarge">Örter</span></p><span class="w3-xlarge">4+</span></div>
+			<div class="w3-col m2 w3-blue"><p><span class="w3-xlarge">Bär</span></p><span class="w3-xlarge">3+</span></div>
+			<div class="w3-col m2 w3-indigo"><p><span class="w3-xlarge">Frukt</span></p><span class="w3-xlarge">2+</span></div>    
+	  </div>	  
+	</div><!-- Container (About Section) end --> 
+
+	<!-- Second Parallax Image with pictures Text -->
+	<div class="bgimg-2 w3-display-container w3-opacity-min">
+	  <div class="w3-display-middle">
+			<span class="w3-xxlarge w3-text-white w3-wide">BILDER</span>
+	  </div>
+	</div>
+
+	<!-- Container (Pictures Section) start -->
+	<div class="w3-content w3-container w3-padding-64" id="pictures">
+	  <!--<h3 class="w3-center">BILDER</h3>-->
+	  <p style="font-size: 125%"  class="w3-center"><em><b>Klicka på en bild för detaljer (Obs: lott var under uppbyggnad)</b></em></p><br>
+	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+	  <!-- Start replace  (execute my python prorgrams to modify the images and/or their text)-->  
+	  <div class="w3-row-padding w3-center">
+
+	  	 <div class="w3-col m3">
+			 <img src="images/BirdBath_02.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bird bath -2017.10">
+			</div>
+	  	
+      <div class="w3-col m3">
+			 <img src="images/FromSouthEastCorner_View.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Southeast corner view -2017.05">
+			</div>
+     
+			<div class="w3-col m3">
+			  <img src="images/FromSouthSide_View.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="South side view -2017.06">
+			</div>
+
+		  <div class="w3-col m3">
+        <img src="images/FromSouthSide_View2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="South side view -2017.06">
+        </div>			
+	  </div>
+	  	  
+	  <div class="w3-row-padding w3-center w3-section"> <!-- next row of pictures -->
+	  	<div class="w3-col m3">
+			 <img src="images/FromSouthSide_View3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="South side view -2017.05">
+			</div>
+
+			<div class="w3-col m3">
+			   <img src="images/FromSouthWestCorner_View.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Southwest corner view -2017.06">
+			</div>
+	
+
+			<div class="w3-col m3">
+			   <img src="images/FromSouthWestCorner_View2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Southwest corner view -2017.05">
+			</div>	
+
+			<div class="w3-col m3">
+        <img src="images/RockArt.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rock art -2017.10">
+      </div> 
+		</div>
+	  <!-- Stop replace -->
+	</div> <!-- end container (Pictures) section -->
+
+	<!-- Modal for full size images on click (see MyScripts.js)-->
+	<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+	  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+	  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+			<img id="img01" class="w3-image" alt=" ">
+			<p id="caption" class="w3-opacity w3-large"></p>
+	  </div>
+	</div>
+
+	<!-- Third Parallax Image with Text -->
+	<div class="bgimg-3 w3-display-container w3-opacity-min">
+	  <div class="w3-display-middle">
+			<span class="w3-xxlarge w3-text-white w3-wide">KONTAKA</span>
+	  </div>
+	</div>
+
+	<!-- Start container (Contact) section-->
+	<div class="w3-content w3-container w3-padding-64" id="contact">
+	  <h3 class="w3-center">PLATS</h3>	 
+
+	  <div class="w3-row w3-padding-32 w3-section">
+	    <div class="w3-col m4 w3-container">		  <!-- add Google Map -->
+			  <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;">
+			  </div>
+			</div>
+
+			<div class="w3-col m8 w3-panel">
+			  <div class="w3-large w3-margin-bottom">
+					<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Stockholm (Orhem), Sverige<br>
+		
+					<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: sssbirdy@gmail.com (webmaster)<br> 
+					<em>Vi skulle älska din feedback!</em><br>
+					 Väder på vårt <a style="text-decoration-color:blue" href="https://www.google.se/search?client=firefox-b&dcr=0&ei=VuE8WvrvFcze6QSi0JW4CQ&q=orhem%2C+Stockholm+weather&oq=orhem%2C+Stockholm+weather&gs_l=psy-ab.3...46762.53972.0.55291.16.16.0.0.0.0.214.1413.10j3j1.14.0....0...1.1.64.psy-ab..2.2.205...35i39k1.0.JubD0SZf4ao" target="_blank"> <font color='blue'>koloni</font></a>
+				</div>
+			</div>		   
+		   
+	 	</div>
+  </div> <!-- end container (Contact) section-->
+
+	<!-- Footer -->
+	<!-- <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off"> -->
+	<footer class="w3-center w3-black w3-padding-24 w3-opacity w3-hover-opacity-off">
+	  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Till toppen</a>
+	   <!--
+	  <div class="w3-xlarge w3-section">
+			<i class="fa fa-facebook-official w3-hover-opacity"></i>
+			<i class="fa fa-instagram w3-hover-opacity"></i>
+			<i class="fa fa-snapchat w3-hover-opacity"></i>
+			<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+			<i class="fa fa-twitter w3-hover-opacity"></i>
+			<i class="fa fa-linkedin w3-hover-opacity"></i>
+	  </div>
+	  -->	 
+	 
+	</footer> 
+	
+	<script src="MyScripts_01.js"> </script>
+	<!-- Add Goggle map -->
+	<script src="GoogleMap.js"></script>
+	<!-- Used my old (H&O) API key for Google maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA770V6vT304C3XxAzcHvbv2_xTOYfh0mo&callback=myMap"></script>
+  <!--
+  To use this code on your website, get a free API key from Google.
+  Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+  -->
+</body>
+</html>
